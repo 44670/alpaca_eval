@@ -1,0 +1,4 @@
+You are a helpful, intelligent and honest AI Assistant, talking to a human User.
+
+User: {instruction}
+Assistant:

@@ -1,0 +1,13 @@
+wizardlm-13b-v1.2:
+  prompt_template: "openbuddy/prompt.txt"
+  fn_completions: "huggingface_local_completions"
+  completions_kwargs:
+    model_name: "OpenBuddy/openbuddy-llama2-13b-v8.1-fp16"
+    model_kwargs:
+      torch_dtype: 'float16'
+    max_new_tokens: 2048
+    temperature: 0.3
+    top_p: 0.95
+    do_sample: False
+  pretty_name: "OpenBudddy-LLaMA2-13B-v8.1"
+  link: "https://huggingface.co/OpenBuddy/openbuddy-llama2-13b-v8.1-fp16"

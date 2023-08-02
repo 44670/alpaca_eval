@@ -4,7 +4,7 @@ openbuddy-llama-30b-v7.1:
   completions_kwargs:
     model_name: "./openbuddy-llama-30b-v7.1-bf16" # local path
     model_kwargs:
-      torch_dtype: 'float16'
+      torch_dtype: 'bfloat16'
     max_new_tokens: 2048
     temperature: 0.7
     top_p: 1.0

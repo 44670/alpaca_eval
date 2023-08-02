@@ -9,5 +9,5 @@ openbuddy-falcon-7b-v6:
     temperature: 0.7
     top_p: 1.0
     do_sample: True
-  pretty_name: "OpenBudddy-falcon-7b-v6"
+  pretty_name: "OpenBuddy-Falcon-7b-v6"
   link: "https://huggingface.co/OpenBuddy/openbuddy-falcon-7b-v6-bf16"
